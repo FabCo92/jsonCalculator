@@ -1,0 +1,29 @@
+{
+  "operations": [
+    {
+      "name": "bestForJob",
+      "function": "max",
+      "field": [
+        "skills",
+        "java"
+      ],
+      "filter": ".*"
+    },
+    {
+      "name": "bestCV",
+      "function": "min",
+      "field": [
+        "cv"
+      ],
+      "filter": ".*"
+    },
+    {
+      "name": "averageAge",
+      "function": "average",
+      "field": [
+        "age"
+      ],
+      "filter": ".*"
+    }
+  ]
+}

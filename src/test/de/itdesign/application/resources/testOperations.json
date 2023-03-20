@@ -1,0 +1,39 @@
+{
+  "operations": [
+    {
+      "name": "default",
+      "function": "average",
+      "field": [
+        "population"
+      ],
+      "filter": "M.*"
+    },
+    {
+      "name": "uniqueFields",
+      "function": "sum",
+      "field": [
+        "extendedStatistics",
+        "numberOfElbphilharmonia"
+      ],
+      "filter": ".*burg"
+    },
+    {
+      "name": "nestedFields",
+      "function": "min",
+      "field": [
+        "extendedStatistics",
+        "area",
+        "metropolitan"
+      ],
+      "filter": "M.*"
+    },
+    {
+      "name": "noValuesPossible",
+      "function": "max",
+      "field": [
+        "population"
+      ],
+      "filter": "P.*"
+    }
+  ]
+}
