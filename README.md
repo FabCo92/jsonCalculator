@@ -18,27 +18,6 @@ An operation always has five members:
 The output also consists of a list of objects which contain the operation name and the formatted calculated value. 
 Floating point numbers are to be output with exactly two decimal places.
 
-Attached you will find three files that perform such an evaluation.
-
-An implementation on the Java VM is to be programmed; all standard libraries of the language you are using may be used, but no others.
-As programming language you can use Java, Kotlin, Groovy or Scala.
-An exception is a library to handle JSON files (e.g. [Jackson library](https://github.com/FasterXML/jackson-databind)).
-If you use an external dependency use your favorite build tool (like Gradle, Maven, ...).
-Possible other exceptions are unittesting libraries (like JUnit, TestNG, etc.).
-
-## Files provided
-
-The following files are supplied to solve the problem:
-
-- data.json Example of input data.
-- operations.json Example of operations to be calculated.
-- output.json The results for the sample data provided.
-- JsonCalculator class as entry point
-
-## Notes on the delivery
-
-Please check the result back into this repository on the branch solution. Once you have uploaded your final solution, please give a short note to jobs@itdesign.de.
-
 # Solution
 
 ## Description
